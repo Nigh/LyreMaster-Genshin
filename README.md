@@ -1,17 +1,27 @@
-![](logo.png)
+![](logo.png)![](assets/genshin.png)
 
 - github：https://github.com/Nigh/LyreMaster-Genshin
 
 > This document has been mostly translated by `deepl.com`
 
+## Introduction(简介)
+
+`LyreMaster` is a software that helps you to play musical instruments easily in the game 「Genshin Impact」.
+
+`手搓弹琴大师` 是一个帮助你在游戏《原神》中轻松演奏乐器的软件。
+
 ## Download(下载)
 
-- [Download Link-下载链接-1](https://download.fastgit.org/Nigh/LyreMaster-Genshin/releases/latest/download/LyreMasterGenshin.zip)
-- [Download Link-下载链接-2](https://github.com/Nigh/LyreMaster-Genshin/releases/latest/download/LyreMasterGenshin.zip)
-- [Download Link-下载链接-3](https://github.com.cnpmjs.org/Nigh/LyreMaster-Genshin/releases/latest/download/LyreMasterGenshin.zip)
+- [Download Link-下载链接-1](https://download.fastgit.org/Nigh/LyreMaster-Genshin/releases/latest/download/LyreMaster.zip)
+- [Download Link-下载链接-2](https://github.com/Nigh/LyreMaster-Genshin/releases/latest/download/LyreMaster.zip)
+- [Download Link-下载链接-3](https://github.com.cnpmjs.org/Nigh/LyreMaster-Genshin/releases/latest/download/LyreMaster.zip)
 
 ## Related Software(相关软件)
-- [DoMiSo-Genshin(自动弹琴人偶-原神)](https://github.com/Nigh/DoMiSo-genshin)
+##### [DoMiSo-Genshin(自动弹琴人偶-原神)](https://github.com/Nigh/DoMiSo-genshin)
+
+`DoMiSo` is a software that helps you play musical instruments fully automatically in the game 「Genshin Impact」.
+
+`自动弹琴人偶` 是一个帮助你在游戏《原神》中全自动演奏乐器的软件。
 
 Special Edition Statute(特别版规约)
 ------------------
