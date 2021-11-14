@@ -15,7 +15,7 @@ donate:
 Run, https://ko-fi.com/xianii
 Return
 pages:
-Run, https://github.com/Nigh/ahk-autoupdate-template
+Run, https://github.com/Nigh/LyreMaster-Genshin
 Return
 donothing:
 Return
