@@ -1,49 +1,103 @@
-# AHK auto update template
-
 ![](logo.png)
 
-`logo.png`(modified) from https://www.pngrepo.com/ 
+- github：https://github.com/Nigh/LyreMaster-Genshin
 
-`icon.ico` is converted from the `logo.png`  at https://cloudconvert.com/png-to-ico with `48x48` dimension
+> This document has been mostly translated by `deepl.com`
 
-> tested on Autohotkey 1.1.33.07
+## Download(下载)
 
-## how it works
+- [Download Link-下载链接-1](https://download.fastgit.org/Nigh/LyreMaster-Genshin/releases/latest/download/LyreMasterGenshin.zip)
+- [Download Link-下载链接-2](https://github.com/Nigh/LyreMaster-Genshin/releases/latest/download/LyreMasterGenshin.zip)
+- [Download Link-下载链接-3](https://github.com.cnpmjs.org/Nigh/LyreMaster-Genshin/releases/latest/download/LyreMasterGenshin.zip)
 
-When publish release on Github, upload a additional `version.txt` file.
+## Related Software(相关软件)
+- [DoMiSo-Genshin(自动弹琴人偶-原神)](https://github.com/Nigh/DoMiSo-genshin)
 
-Then the script would download the file and check if there is newer version. If there is, then download it.
+Special Edition Statute(特别版规约)
+------------------
+Any derivative works created using this version of the software need to be credited in the work.
+The source of the software should be properly acknowledged in the text description section.
 
-## Setup
+Any infringement of third parties caused by the use of this software is the sole responsibility of the user.
 
-### `update.ahk`
-- the `update_log` would be shown once through the `msgbox` after success update
+任何使用本软件创作的衍生作品均需要在作品中注明。
+并在文字描述部分恰当的注明软件来源。
 
-### `meta.ahk`
-- set `version`
-- set `ahkFilename` to your script name, it would compile `%ahkFilename%.ahk` to `%binaryFilename%.exe`
-- set `downloadUrl` to your github release URL
+任何由于使用本软件对第三方所造成的侵害均由使用者本人负责。
 
-### `distribution.ahk`
-> The **requirements** of using the `distribution.ahk` is:  
-  ; `autohotkey` in PATH  
-  ; `ahk2exe` in PATH  
-  ; `mpress` in `ahk2exe` path
+## Communities(社群)
+- Discord: https://discord.gg/5PCebykNaC
+- 开黑啦: https://kaihei.co/IWXRLp
 
-### `icon.ico`
-- put your icon in the same directory.
+## Screenshot(截图)
 
-### notice
-version is compared by `(\d+)\.(\d+)\.(\d+)`
+![](assets/screenshot.png)
 
-## Usage
-1. Run `distribution.ahk`, is will compile your script into binary, and then compress it into zip. At the same time, it will genarate the `version.txt`. And then, this two file would be moved into `dist` directory.
-2. Upload the two files in the `dist` directory to your release.
-3. Everything would work.
+Instructions(使用说明)
+------------------
 
-## Template Usage
+- Paste a valid keyboard sheet in the edit box
+- When `Genshin Impact` has started and you are in the music playing UI, Click `Play` or press the `F9` shortcut to start the in-game auto key mapping
+- Press the `F8` shortcut key to stop the key mapping
 
-1. Fork this repo.
-2. New Repository.
-3. You can choose `Repository template` now.
+
+
+- 在编辑框中粘贴有效的键盘谱
+- 在`原神`游戏已经启动，并且在演奏界面时，点击`Play`或者按下`F9`快捷键可以开始游戏中的自动按键映射
+- 按下`F8`快捷键可以停止自动映射
+
+
+
+> As the `Genshin Impact` game is launched with administrator privileges, this software requires administrator privileges to interact with the game proper  
+> 由于`原神`游戏以管理员权限启动，所以本软件需要管理员权限才能与游戏本体交互。
+
+## AHK version
+
+`1.1.33.7 Unicode 32bit`
+
+
+[Update Log(更新日志)](changes.md)
+------------------
+
+更新日志
+------------------
+- 2021.4.2 v0.3M Genshin
+
+  原神手搓版，实现手搓自动演奏功能
+
+- 2021.3.29 v0.2a Genshin
+
+  重写了UI，更改了GDIP的实现方式  
+  原神特别版，附带自动演奏功能
+
+Introduction(简介)
+------------------
+原神手搓版，仅有演奏原神键盘谱的功能
+
+Grammar(语法)
+------------------
+
+A single letter is a single note, brackets enclose the chord. Half angle brackets must be used
+单个字母为单音，括号括起来为和弦。必须使用半角括号，即英文括号。
+
+功能
+------------------
+软件通过将用户的输入映射至谱面的按键来实现自动手搓。  
+请仅在演奏界面开启映射，否则会打乱你的输入。
+
+Donate(捐助)
+------------------
+
+- Ko-fi: https://ko-fi.com/xianii
+- Paypal: https://paypal.me/xianii
+
+- Alipay: ![](assets/alipay.jpg)
+
+## Advanced Function(进阶功能)
+
+### Hardcore Mode(硬核模式)
+
+**When hardcore mode is on, you need to press the same number of keys as the chord notes to trigger the play. **
+
+**硬核模式开启时，需要按下与和弦音符相同数量的按键才能触发演奏。**
 
