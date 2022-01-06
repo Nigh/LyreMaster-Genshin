@@ -1,7 +1,7 @@
 ﻿
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
-#SingleInstance force
+#SingleInstance ignore
 #include meta.ahk
 
 SetKeyDelay, 1, 1 
@@ -147,10 +147,12 @@ Return
 hotkey_disable:
 isBtn1Playing:=0
 btn1update()
+Hotkey, IfWinActive, ahk_id %hgame%
 Loop, Parse, hotkey_list
 {
-	Hotkey, % A_LoopField, Off
+	Hotkey, % "$" A_LoopField, Off
 }
+Hotkey, If
 Return
 
 dms_parser(v)
