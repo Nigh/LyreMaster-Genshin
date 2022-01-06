@@ -4,6 +4,14 @@ LyreMaster Genshin
 
 手搓弹琴大师-原神
 
+## v0.5.1
+
+- 修复一个热键作用域导致的报错
+- Fix an error caused by a hotkey scope
+- 现在更新源将会自动选择
+- The update source will now be automatically selected
+
+
 ## v0.5
 
 - 添加了自动更新功能

@@ -1,7 +1,7 @@
 
 FileEncoding, UTF-8
 appName:="LyreMaster"
-version:="0.5.0"
+version:="0.5.1"
 versionFilename:="versionLyre.txt"
 ahkFilename:="LyreMaster.ahk"
 binaryFilename:="LyreMaster.exe"
