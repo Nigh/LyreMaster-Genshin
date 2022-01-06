@@ -7,11 +7,29 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 SetKeyDelay, 1, 1 
 SendMode event
 
-outputVersion()
-if A_IsCompiled
-debug:=0
-Else
-debug:=1
+;@Ahk2Exe-IgnoreBegin
+if A_Args.Length() > 0
+{
+	for n, param in A_Args
+	{
+		RegExMatch(param, "--out=(\w+)", outName)
+		if(outName1=="version") {
+			f := FileOpen(versionFilename,"w","UTF-8-RAW")
+			f.Write(version)
+			f.Close()
+			ExitApp
+		}
+	}
+}
+;@Ahk2Exe-IgnoreEnd
+
+;@Ahk2Exe-SetCompanyName HelloWorks
+;@Ahk2Exe-SetName LyreMaster Genshin
+;@Ahk2Exe-SetDescription LyreMaster Genshin
+;@Ahk2Exe-SetVersion version
+;@Ahk2Exe-SetMainIcon icon.ico
+;@Ahk2Exe-ExeName LyreMaster
+
 UAC()
 
 ; q w e r t y u
@@ -230,10 +248,11 @@ ExitApp
 trueExit:
 ExitApp
 
-#If debug
+;@Ahk2Exe-IgnoreBegin
 F5::ExitApp
 F6::Reload
-#If
+;@Ahk2Exe-IgnoreEnd
+
 F9::Gosub, main_start
 F8::Gosub, main_stop
 
