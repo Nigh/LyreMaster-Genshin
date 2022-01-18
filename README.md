@@ -12,9 +12,8 @@
 
 ## Download(下载)
 
-- [Download Link-下载链接-1](https://download.fastgit.org/Nigh/LyreMaster-Genshin/releases/latest/download/LyreMaster.zip)
-- [Download Link-下载链接-2](https://github.com/Nigh/LyreMaster-Genshin/releases/latest/download/LyreMaster.zip)
-- [Download Link-下载链接-3](https://github.com.cnpmjs.org/Nigh/LyreMaster-Genshin/releases/latest/download/LyreMaster.zip)
+- [GitHub Download - GitHub下载](https://github.com/Nigh/LyreMaster-Genshin/releases/latest/download/LyreMaster.zip)
+- [Mirror Download - 镜像下载](https://ghproxy.com/https://github.com/Nigh/LyreMaster-Genshin/releases/latest/download/LyreMaster.zip)
 
 ## Related Software(相关软件)
 ##### [DoMiSo-Genshin(自动弹琴人偶-原神)](https://github.com/Nigh/DoMiSo-genshin)
