@@ -24,7 +24,7 @@ if(autoUpdate) {
 		IniRead, version_str, setting.ini, update, ver, "0"
 		if(version_str!=version) {
 			IniWrite, % version, setting.ini, update, ver
-			MsgBox, % version "`nUpdate log`n`n" update_log
+			; MsgBox, % version "`nUpdate log`n`n" update_log
 		}
 	}
 } else {

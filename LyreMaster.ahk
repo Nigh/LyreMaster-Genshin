@@ -4,7 +4,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #SingleInstance ignore
 #include meta.ahk
 
-SetKeyDelay, 1, 1 
+SetKeyDelay, -1, -1
 SendMode event
 
 ;@Ahk2Exe-IgnoreBegin

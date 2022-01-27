@@ -4,6 +4,13 @@ LyreMaster Genshin
 
 手搓弹琴大师-原神
 
+
+## v0.5.2
+
+- 取消了模拟按键的延迟
+- The key simulation delay has been removed
+
+
 ## v0.5.1
 
 - 修复一个热键作用域导致的报错
